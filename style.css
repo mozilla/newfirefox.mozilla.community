@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fira Sans';
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Zilla Slab';
+}
+
+header {
+  display: flex;
+  justify-content: right;
+  padding-right: 3em;
+  align-items: center;
+  height: 400px;
+  background-color: #000f40;
+  margin-bottom: 3em;
+  background-image: url('assets/firefox-logo.png');
+  background-position: 60px center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  text-align: right;
+  color: #fff;
+  font-size: 5em;
+}
+
+#container {
+  padding: 0 20px 100px 20px;
+  text-align: center;
+}
+
+#container h1 {
+  font-size: 3em;
+}
+
+#tweets-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 100px 20px;
+}
+
+.tweet-container {
+  display: flex;
+  align-content: center;
+  width: 40%;
+  background-color: #000f40;
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.tweet-container button {
+  margin-left: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  padding-bottom: 30px;
+  height: 300px;
+  background-image: url('assets/fox.png'), linear-gradient(white 0%, white 75%, #000f40 75.00001%);
+  background-repeat: no-repeat;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

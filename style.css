@@ -80,13 +80,15 @@ header h1 {
 }
 
 header .intro {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 150px 100px 150px;
 }
 
 header .intro p {
   color: #fff;
   font-size: 1.2em;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 header .intro img {

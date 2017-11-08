@@ -3,6 +3,11 @@ html, body {
   padding: 0;
 }
 
+html {
+  background: url('assets/background.jpg');
+  background-size: cover;
+}
+
 body {
   font-family: 'Fira Sans';
 }
@@ -14,27 +19,27 @@ h1 {
 
 header {
   display: flex;
-  justify-content: right;
-  padding-right: 3em;
+  justify-content: center;
   align-items: center;
   height: 400px;
-  background-color: #000f40;
   margin-bottom: 3em;
-  background-image: url('assets/firefox-logo.png');
-  background-position: 60px center;
-  background-size: 300px;
-  background-repeat: no-repeat;
 }
 
 header h1 {
-  text-align: right;
-  color: #fff;
+  text-align: center;
+  color: #000;
   font-size: 5em;
 }
 
 #container {
-  padding: 0 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 100px;
 }
 
 #container h1 {
@@ -64,12 +69,10 @@ header h1 {
 
 footer {
   display: flex;
-  justify-content: right;
-  align-items: end;
-  padding-bottom: 30px;
-  height: 300px;
-  background-image: url('assets/fox.png'), linear-gradient(white 0%, white 75%, #000f40 75.00001%);
-  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #000;
 }
 
 footer a {

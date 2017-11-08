@@ -85,7 +85,7 @@ header .intro {
 
 header .intro p {
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.4em;
   width: 50%;
   margin: 0 auto;
   margin-top: 20px;
@@ -123,6 +123,10 @@ header .intro img {
   text-transform: uppercase;
   text-align: center;
   padding: 10px 10px;
+}
+
+.btn-big {
+  font-size: 21px;
 }
 
 .btn-red {

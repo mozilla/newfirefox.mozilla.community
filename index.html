@@ -7,7 +7,7 @@
     <title>Firefox Quantum</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans|Zilla+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans|Zilla+Slab|Zilla+Slab+Highlight:400,700">
 
     <!-- Google Tag Manager -->
     <script src="js/dnt-helper.js"></script>
@@ -31,41 +31,69 @@
   </head>
 
   <body>
-    <header>
-      <h1>Firefox Quantum Release</h1>
-    </header>
+    <div class="home">
+      <header>
+        <div class="top-header">
+          <a href="/">
+            <span class="logo">mozilla</span><br />
+            <span class="logo-subtext">Firefox Quantum Release</span>
+          </a>
+        </div>
 
-    <section id="container">
-      <h1>Some text...</h1>
-      <p>This is an explanation text...</p>
-    </section>
+        <div class="intro">
+          <img src="assets/firefox-logo.png" />
+          <h1>Firefox strikes back!</h1>
+          <p>Some text....</p>
+        </div>
+      </header>
 
-    <div id="tweets-container">
-      <a href="https://twitter.com/intent/retweet?tweet_id=928033132908986369">Retweet the official tweet</a>
-      <div class="tweet-container">
-        <p>This is an example tweet... Number 1... #newfirefox</p>
-        <a href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%201...%20%23newfirefox">Tweet</a>
+      <div id="tweets-container">
+        <a class="btn" href="https://twitter.com/intent/retweet?tweet_id=928033132908986369">Retweet the official tweet</a>
+
+        <div id="tweets-examples-container">
+          <div class="tweet-container">
+              <p>The #newfirefox is out today and it’s twice as fast as before! 💥</p>
+              <a
+                class="btn btn-red"
+                href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%201...%20%23newfirefox"
+              >Tweet</a>
+            </div>
+
+            <div class="tweet-container">
+              <p>The #newfirefox is faster than a ___________. Thanks @Firefox!</p>
+              <a
+                class="btn btn-blue"
+                href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%202...%20%23newfirefox"
+              >Tweet</a>
+            </div>
+
+            <div class="tweet-container">
+              <p>The new @Firefox is here and it is FAST. For good. </p>
+              <a
+                class="btn btn-orange"
+                href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%203...%20%23newfirefox"
+              >Tweet</a>
+            </div>
+        </div>
+
+        <a class="btn" href="https://twitter.com/intent/tweet?text=%20%23newfirefox">Tweet your own text</a>
       </div>
 
-      <div class="tweet-container">
-        <p>This is an example tweet... Number 2... #newfirefox</p>
-        <a href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%202...%20%23newfirefox">Tweet</a>
-      </div>
-
-      <div class="tweet-container">
-        <p>This is an example tweet... Number 3... #newfirefox</p>
-        <a href="https://twitter.com/intent/tweet?text=This%20is%20an%20example%20tweet...%20Number%203...%20%23newfirefox">Tweet</a>
-      </div>
-
-      <a href="https://twitter.com/intent/tweet?text=%20%23newfirefox">Tweet your own text</a>
+      <footer>
+        <div class="info">
+          <div class="links">
+            <a target="_blank" href="https://github.com/mozilla/newfirefox.mozilla.community">Github</a>
+            <a target="_blank" href="https://www.mozilla.org/about/legal/terms/mozilla/">Legal</a>
+            <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">License</a>
+            <a target="_blank" href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Guidelines</a>
+          </div>
+          <div class="footer-content">
+            <span class="logo logo-white">mozilla</span>
+            <p>Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a href="https://mozilla.org" target="_blank">mozilla.org</a></p>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <footer>
-      <a target="_blank" href="https://github.com/mozilla/newfirefox.mozilla.community">Github</a>
-      <a target="_blank" href="https://www.mozilla.org/about/legal/terms/mozilla/">Legal</a>
-      <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">License</a>
-      <a target="_blank" href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Guidelines</a>
-    </footer>
 
     <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
   </body>

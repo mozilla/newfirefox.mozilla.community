@@ -1,83 +1,264 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: 'Fira Sans';
+  background-color: #2E2D56;
 }
 
-h1 {
-  margin: 0;
-  font-family: 'Zilla Slab';
+.logo {
+  display: inline-block;
+  font-family: 'Zilla Slab Highlight';
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+  background-color: white;
+  color: black;
+}
+
+.logo-white {
+  background-color: black;
+  color: white;
+}
+
+.top-header {
+  padding: 50px 150px 0 50px;
+  display: flex;
+  text-align: left;
+}
+
+.top-header .moz-logo {
+  width: 113px;
+}
+
+.top-header a,
+.top-header a:hover {
+  flex: 1;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+@media all and (max-width: 768px) {
+  .top-header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.top-header .logo-subtext {
+  font-family: 'Zilla Slab Highlight';
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: white;
+  display: inline-block;
 }
 
 header {
-  display: flex;
-  justify-content: right;
-  padding-right: 3em;
-  align-items: center;
-  height: 400px;
-  background-color: #000f40;
-  margin-bottom: 3em;
-  background-image: url('assets/firefox-logo.png');
-  background-position: 60px center;
-  background-size: 300px;
-  background-repeat: no-repeat;
-}
-
-header h1 {
-  text-align: right;
-  color: #fff;
-  font-size: 5em;
-}
-
-#container {
-  padding: 0 20px 100px 20px;
+  background: url('assets/img-header.svg');
+  background-size: cover;
+  background-position: inherit;
   text-align: center;
 }
 
-#container h1 {
-  font-size: 3em;
+@media all and (max-width: 768px) {
+  header {
+    background-position: center center;
+  }
+}
+
+header h1 {
+  font-size: 46px;
+  font-family: 'Fira Sans';
+  line-height: 1.12;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+header .intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header .intro p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+header .intro img {
+  width: 10%;
+  margin-bottom: 50px;
+}
+
+@media all and (max-width: 768px) {
+  header {
+    padding-bottom: 20vh;
+  }
+
+  header h1 {
+    width: 100%;
+  }
+
+  header .intro {
+    padding-top: 50px;
+  }
+}
+
+.btn {
+  margin: 30px 0;
+  background-color: #fff;
+  display: inline-block;
+  color: #000;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.btn-red {
+  color: #FF0039;
+}
+
+.btn-blue {
+  color: #0A84FF;
+}
+
+.btn-orange {
+  color: #FF9400;
 }
 
 #tweets-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px 100px 20px;
+  padding: 0px 50px 20px 50px;
+}
+
+#tweets-examples-container {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .tweet-container {
+  height: 120px;
   display: flex;
-  align-content: center;
-  width: 40%;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-between;
+  width: 33.33%;
   background-color: #000f40;
   color: #fff;
-  margin-top: 20px;
   padding: 20px 20px 20px 20px;
+  margin-right: 20px;
+  border-radius: 15px;
 }
 
-.tweet-container button {
-  margin-left: 20px;
+.tweet-container:nth-child(1) {
+  background-color: #FF0039;
+}
+
+.tweet-container:nth-child(2) {
+  background-color: #0A84FF;
+}
+
+.tweet-container:nth-child(3) {
+  background-color: #FF9400;
+  margin-right: 0;
+}
+
+.tweet-container p {
+  flex-grow: 1;
+}
+
+.tweet-container .btn {
+  width: 20%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0px;
 }
 
 footer {
+  background:
+    url('assets/fox.png') 100% -10% no-repeat;
+  padding: 30px 50px 0px 50px;
   display: flex;
-  justify-content: right;
-  align-items: end;
-  padding-bottom: 30px;
+  flex-direction: row;
   height: 300px;
-  background-image: url('assets/fox.png'), linear-gradient(white 0%, white 75%, #000f40 75.00001%);
-  background-repeat: no-repeat;
 }
 
-footer a {
+footer .info {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+footer .links a {
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
   color: #fff;
+  padding-top: 20px;
+  margin-right: 20px;
   text-decoration: none;
-  padding-right: 30px;
 }
 
-footer a:hover {
-  text-decoration: underline;
+footer .links a:hover {
+  box-shadow: inset 0 -4px 0 #fff;
+}
+
+footer .footer-content {
+  font-family: 'Fira Sans';
+  font-size: 10px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  width: 100%;
+}
+
+footer .footer-content p {
+  opacity: 0.5;
+  width: 50%;
+}
+
+footer .footer-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media all and (max-width: 1150px) {
+  footer {
+    background: linear-gradient(to top, #535382, #2d2c55);
+    height: 100%;
+  }
+}
+
+.mobile-only {
+  display: none !important;
+}
+
+@media all and (max-width: 768px) {
+  .mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
 }

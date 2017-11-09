@@ -5,6 +5,10 @@ body {
   background-color: #2E2D56;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .logo {
   display: inline-block;
   font-family: 'Zilla Slab Highlight';

@@ -162,6 +162,12 @@ header .intro img {
   color: #FF9400;
 }
 
+#thunderclap-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 50px 20px 50px;
+}
+
 #tweets-container {
   display: flex;
   flex-direction: column;

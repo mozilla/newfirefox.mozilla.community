@@ -80,7 +80,7 @@ header h1 {
 }
 
 header .intro {
-  padding: 100px 150px 100px 150px;
+  padding: 100px 150px 50px 150px;
 }
 
 header .intro p {
@@ -97,16 +97,37 @@ header .intro img {
 }
 
 @media all and (max-width: 768px) {
-  header {
-    padding-bottom: 20vh;
-  }
-
   header h1 {
     width: 100%;
   }
 
   header .intro {
-    padding-top: 50px;
+    padding: 0;
+  }
+
+  header .intro img {
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  header .intro p {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  header .intro {
+    padding: 0 0 50px 0;
+  }
+
+  header .intro p {
+    width: 90%;
+  }
+
+  header .intro img {
+    margin-top: 50px;
   }
 }
 
@@ -192,6 +213,23 @@ header .intro img {
   bottom: 0px;
 }
 
+@media all and (max-width: 1150px) {
+  #tweets-examples-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tweet-container {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+
+  .tweet-container:last-child {
+    margin-bottom: 0;
+  }
+}
+
 footer {
   background:
     url('assets/fox.png') 100% -10% no-repeat;
@@ -252,6 +290,33 @@ footer .footer-content a {
   footer {
     background: linear-gradient(to top, #535382, #2d2c55);
     height: 100%;
+  }
+
+  footer .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .links a {
+    margin-right: 0;
+  }
+
+  footer .links a:hover {
+    box-shadow: none;
+  }
+
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 

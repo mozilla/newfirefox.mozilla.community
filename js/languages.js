@@ -25,6 +25,10 @@ function changeLanguageToRequestedIfNecessary() {
 function updateTweets() {
   const url = 'https%3A%2F%2Fmzl.la%2Fnewfirefox';
 
+  const thunderclap = document.querySelector('#thunderclap');
+  const thunderclapLink = document.querySelector('#thunderclap-link').textContent;
+  thunderclap.href = thunderclapLink;
+
   const officialTweet = document.querySelector('#official-tweet');
   const tweetId = document.querySelector('#official-tweet-id').textContent;
   officialTweet.href = 'https://twitter.com/intent/retweet?tweet_id=' + tweetId;

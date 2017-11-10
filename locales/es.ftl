@@ -3,6 +3,7 @@ project-name = Lanzamiento de Firefox Quantum
 main-title = ¡Firefox contrataca!
 main-description = ¡Ayudanos a difundir el nuevo Firefox! El martes 14 a las 14:00 UTC, tuitea sobre qué te gusta del nuevo Firefox usando #nuevofirefox o retuitea los tuits de Firefox.
 thunderclap-cta = ¡Apoya Firefox Quantum en Thunderclap!
+thunderclap-link = https://www.thunderclap.it/projects/64627-d-a-de-lanzamiento-de-firefox
 official-tweet-cta = Retuitea el tuit oficial
 tweet-1 = The #newfirefox is out today and it’s twice as fast as before! 💥
 tweet-2 = The #newfirefox is faster than a ___________. Thanks @Firefox!

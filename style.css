@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Fira Sans';
   background: #2E2D56;
-  background: radial-gradient(circle at bottom, #6d6da2, #2E2D56);
+  background: radial-gradient(circle at bottom,#525281, #1A1A40);
 }
 
 .hidden {

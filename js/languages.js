@@ -9,12 +9,12 @@ function registerLanguageChangeListener() {
   var languageDropdown = document.querySelector('#language-dropdown');
   languageDropdown.addEventListener('change', function(event) {
     document.l10n.requestLanguages([event.target.value]);
-    window.location.search = '?lang=' + event.target.value;
+    window.location.hash = '?lang=' + event.target.value;
   });
 }
 
 function changeLanguageToRequestedIfNecessary() {
-  var preferredLanguage = getParameterByName('lang');
+  var preferredLanguage = getHashByName('lang');
   if (preferredLanguage) {
     document.l10n.requestLanguages([preferredLanguage]);
     var languageDropdown = document.querySelector('#language-dropdown');
@@ -48,7 +48,7 @@ function updateTweets() {
   tweetOwn.href = tweetOwn.href + encodeURIComponent(hashtag);
 }
 
-function getParameterByName(name) {
-  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+function getHashByName(name) {
+  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.hash);
   return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }

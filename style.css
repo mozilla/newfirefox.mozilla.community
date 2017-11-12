@@ -36,11 +36,8 @@ body {
   width: 113px;
 }
 
-.top-header a,
-.top-header a:hover {
+.top-header .logo-container {
   flex: 1;
-  text-decoration: none;
-  box-shadow: none;
 }
 
 .top-header select {

@@ -15,14 +15,6 @@ body {
   font-family: 'Zilla Slab Highlight';
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: 0;
-  line-height: 32px;
-  background-color: white;
-  color: black;
-}
-
-.logo-white {
-  background-color: black;
   color: white;
 }
 

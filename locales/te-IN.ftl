@@ -18,4 +18,4 @@ mozilla-description =
 మొజిల్లా ప్రపంచవ్యాప్త లాభాపేక్షలేనిది, మీ ఆన్ లైన్ అనుభవాన్ని నియంత్రించి, భవిష్యత్ను రూపొందించడంలో అంకితం చేయబడింది
   ప్రజా మంచి కోసం వెబ్. మమ్మల్ని సందర్శించండి
   <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 928033132908986369
+official-tweet-id = tbd

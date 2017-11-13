@@ -1,13 +1,13 @@
 title = Firefox Quantum Release Kampagne
 project-name = Firefox Quantum Release
 main-title = Firefox schlägt zurück!
-main-description = Deine Stimme für den neuen Firefox! Tweete am Dienstag, 14. November was das Zeug hält, und sag der Welt, was Du an #FirefoxQuantum liebst oder retweete Firefox's Tweets.
+main-description = Deine Stimme für den neuen Firefox! Tweete am Dienstag, 14. November was das Zeug hält, und sag der Welt, was Du an #NeuerFirefox liebst oder retweete Firefox's Tweets.
 thunderclap-cta = Unterstütze Firefox Quantum!
 thunderclap-link = https://www.thunderclap.it/projects/64631-f-r-den-firefox-quantum-launch
 official-tweet-cta = Retweet offiziellen Tweet
-tweet-1 = #FirefoxQuantum kommt heute und ist doppelt so schnell! 💥 Jetzt herunterladen: https://mzl.la/newfirefox #NeuerFirefox
-tweet-2 = #FirefoxQuantum ist schneller als ________. Danke @Firefox & @Firefox_DE
-tweet-3 = #FirefoxQuantum ist hier und er ist SCHNELL. Für das Gute! Hol ihn Dir hier: https://mzl.la/newfirefox #NeuerFirefox
+tweet-1 = #NeuerFirefox 🦊 kommt heute und ist doppelt so schnell! 💥 Jetzt herunterladen: https://mzl.la/newfirefox
+tweet-2 = #NeuerFirefox 🦊 ist schneller als ________. Danke @Firefox & @Firefox_DE
+tweet-3 = #NeuerFirefox 🦊 ist hier und er ist SCHNELL. Für das Gute! Hol ihn Dir hier: https://mzl.la/newfirefox @firefox_de
 own-tweet-cta = Eigenen Text tweeten
 hashtag = #NeuerFirefox
 github = GitHub

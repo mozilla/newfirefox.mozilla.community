@@ -15,6 +15,6 @@ legal = कानून
 license = अनुज्ञप्ति
 guidelines = दिशा निर्देश
 mozilla-description =
-  Mozilla एक नॉन-प्रॉफिट कंपनी है जो जुटी है आपके online experience का रिमोट-कंट्रोल आपको देने के लिए एवं वेब के कल को इंसान की बढ़ोतरी हेतु ढालने में। जाने और :
+  Mozilla एक वैश्विक लाभ-निरपेक्ष कंपनी है जो आपके online अनुभवों को आपके नियंत्रण में करने के लिए समर्पित है तथा web के भविष्य को सार्वजनिक अच्छाई में ढाल रही है। और जाने :
   <a href="https://mozilla.org" target="_blank">mozilla.org</a>
 official-tweet-id = 930436848094085121

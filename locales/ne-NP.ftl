@@ -17,4 +17,4 @@ guidelines = दिशा निर्देश
 mozilla-description =
   Mozilla एक नॉन-प्रॉफिट कंपनी हो जो जुटिरहेको छ तपाईंको online experience को रिमोट-कंट्रोल तपाईंलाई दिनको लागि र वेबको नक्सा मन्छेको हितको लागि परिवर्तन गर्न। बिस्तृत रुपमा जन्नकोलागि:
   <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 930435170288656384
+official-tweet-id = 930436848094085121

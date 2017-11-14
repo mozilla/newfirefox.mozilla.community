@@ -16,4 +16,4 @@ license = Licença
 guidelines = Diretrizes
 mozilla-description =
   A Mozilla é uma organização sem fins lucrativos global que coloca você no controle da sua experiência on-line, moldando o futuro da web para o bem público geral. Visite-nos em <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 930435170288656384
+official-tweet-id = 930443694716674048

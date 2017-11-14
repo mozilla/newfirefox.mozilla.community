@@ -53,7 +53,7 @@ function updateTweets() {
 
   var tweetOwn = document.querySelector('#own-tweet');
   var hashtag = document.querySelector('#hashtag').textContent;
-  tweetOwn.href = tweetOwn.href + encodeURIComponent(hashtag);
+  tweetOwn.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(hashtag);
 }
 
 function getHashByName(name) {

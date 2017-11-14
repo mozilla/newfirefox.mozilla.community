@@ -17,4 +17,4 @@ guidelines = दिशा निर्देश
 mozilla-description =
   Mozilla एक नॉन-प्रॉफिट कंपनी है जो जुटी है आपके online experience का रिमोट-कंट्रोल आपको देने के लिए एवं वेब के कल को इंसान की बढ़ोतरी हेतु ढालने में। जाने और :
   <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 930435170288656384
+official-tweet-id = 930436848094085121

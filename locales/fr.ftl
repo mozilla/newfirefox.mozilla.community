@@ -16,4 +16,4 @@ license = Licence
 guidelines = Directives relatives à la participation
 mozilla-description =
   Mozilla est un organisme mondial à but non lucratif, qui œuvre pour que les utilisateurs gardent le contrôle de leur vie en ligne et pour défendre le Web en tant que bien commun. Apprenez-en davantage sur <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 930435170288656384
+official-tweet-id = 930441519651311617

@@ -16,4 +16,4 @@ license = Lizenz
 guidelines = Richtlinien
 mozilla-description =
   Mozilla ist eine globale Non-Profit Organisation, die Dir die Kontrolle über Deine Online-Erlebnisse zurückgibt und sich für eine bessere Zukunft des Internet einsetzt - für alle! Besuch uns hier: <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 930436848094085121
+official-tweet-id = 930435166710968324

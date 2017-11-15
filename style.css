@@ -261,7 +261,7 @@ footer .links {
   flex-wrap: wrap;
   width: 50%;
   margin-top: 75px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 footer .links a {
@@ -277,6 +277,12 @@ footer .links a {
 
 footer .links a:hover {
   box-shadow: inset 0 -4px 0 #fff;
+}
+
+footer select {
+  display: block;
+  width: 25%;
+  margin-bottom: 20px;
 }
 
 footer .footer-content {

@@ -1,0 +1,23 @@
+{
+  "name": "newfirefox.mozilla.community",
+  "version": "1.0.0",
+  "description": "Enthusiasts social media campaign website for the launch of Firefox Quantum",
+  "main": "",
+  "scripts": {
+    "dep:copy": "mkdir -p dist && cp node_modules/l20n/dist/web/l20n.min.js dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/newfirefox.mozilla.community.git"
+  },
+  "author": "Michael Kohler",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/newfirefox.mozilla.community/issues"
+  },
+  "homepage": "https://newfirefox.mozilla.community",
+  "dependencies": {
+    "l20n": "^5.0.0"
+  }
+}

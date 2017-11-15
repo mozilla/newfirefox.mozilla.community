@@ -23,8 +23,6 @@ function changeLanguageToRequestedIfNecessary() {
 }
 
 function updateTweets() {
-  const url = 'https%3A%2F%2Fmzl.la%2Fnewfirefox';
-
   const thunderclap = document.querySelector('#thunderclap');
   const thunderclapLink = document.querySelector('#thunderclap-link').textContent;
   thunderclap.href = thunderclapLink;
@@ -35,15 +33,15 @@ function updateTweets() {
 
   const tweet1 = document.querySelector('[data-l10n-id="tweet-1"]');
   const link1 = document.querySelector('#tweet-link1');
-  link1.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet1.textContent) + ' ' + url;
+  link1.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet1.textContent);
 
   const tweet2 = document.querySelector('[data-l10n-id="tweet-2"]');
   const link2 = document.querySelector('#tweet-link2');
-  link2.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet2.textContent) + ' ' + url;
+  link2.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet2.textContent);
 
   const tweet3 = document.querySelector('[data-l10n-id="tweet-3"]');
   const link3 = document.querySelector('#tweet-link3');
-  link3.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet3.textContent) + ' ' + url;
+  link3.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet3.textContent);
 }
 
 function getParameterByName(name) {

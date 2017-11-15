@@ -1,20 +1,18 @@
-title = Firefox Quantum Release Campaign
-project-name = Firefox Quantum Release
-main-title = Firefox strikes back!
-main-description = Help us spread the word about the New Firefox! On Tuesday the 14th, 14:00 UTC, tweet about what you love in the new Firefox using #newfirefox or retweet Firefox’s tweets.
-thunderclap-cta = Support Firefox Quantum on Thunderclap!
+title = Campanha de lançamento do Firefox Quantum
+project-name = Lançamento do Firefox Quantum
+main-title = O Firefox contra-ataca!
+main-description = Ajude-nos a espalhar a palavra sobre o Novo Firefox! Na terça, dia 14, às 11:00 BRT, tweet sobre o que você ama no novo Firefox usando #novofirefox ou retweet os tweets do Firefox.
+thunderclap-cta = Apoie o Firefox Quantum!
 thunderclap-link = https://www.thunderclap.it/projects/64630-dia-de-lan-amento-do-firefox
-official-tweet-cta = Retweet official tweet
-tweet-1 = The #newfirefox is out today and it’s twice as fast as before! 💥
-tweet-2 = The #newfirefox is faster than a ___________. Thanks @Firefox!
-tweet-3 = The new @Firefox is here and it is FAST. For good.
-own-tweet-cta = Tweet own text
+official-tweet-cta = Retweet o tweet oficial
+tweet-1 = O #novofirefox saiu hoje e é duas vezes mais rápido do que antes! 💥 Baixe-o em: https://mzl.la/newfirefox
+tweet-2 = O #novofirefox é mais rápido do que ______________. Obrigado @FirefoxBrasil!
+tweet-3 = O #novofirefox está aqui e é RÁPIDO. De verdade. Baixe o #novofirefox aqui: https://mzl.la/newfirefox
+own-tweet-cta = Tweet seu próprio texto
 github = GitHub
-legal = Legal
-license = License
-guidelines = Guidelines
+legal = Jurídico
+license = Licença
+guidelines = Diretrizes
 mozilla-description =
-  Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future
-  of the web for the public good. Visit us at
-  <a href="https://mozilla.org" target="_blank">mozilla.org</a>
+  A Mozilla é uma organização sem fins lucrativos global que coloca você no controle da sua experiência on-line, moldando o futuro da web para o bem público geral. Visite-nos em <a href="https://mozilla.org" target="_blank">mozilla.org</a>
 official-tweet-id = 928033132908986369

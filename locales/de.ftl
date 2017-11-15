@@ -1,21 +1,18 @@
-title = Firefox Quantum Release Campaign
+title = Firefox Quantum Release Kampagne
 project-name = Firefox Quantum Release
-main-title = Firefox strikes back!
-main-description = Help us spread the word about the New Firefox! On Tuesday the 14th, 14:00 UTC, tweet about what you love in the new Firefox using #newfirefox or retweet Firefox’s tweets.
-thunderclap-cta = Support Firefox Quantum on Thunderclap!
+main-title = Firefox schlägt zurück!
+main-description = Deine Stimme für den neuen Firefox! Tweete am Dienstag, 14. November was das Zeug hält, und sag der Welt, was Du an #FirefoxQuantum liebst oder retweete Firefox's Tweets.
+thunderclap-cta = Unterstütze Firefox Quantum!
 thunderclap-link = https://www.thunderclap.it/projects/64631-f-r-den-firefox-quantum-launch
-official-tweet-cta = Retweet official tweet
-tweet-1 = The #newfirefox is out today and it’s twice as fast as before! 💥
-tweet-2 = The #newfirefox is faster than a ___________. Thanks @Firefox!
-tweet-3 = The new @Firefox is here and it is FAST. For good.
-own-tweet-cta = Tweet own text
+official-tweet-cta = Retweet offiziellen Tweet
+tweet-1 = #FirefoxQuantum kommt heute und ist doppelt so schnell! 💥 Jetzt herunterladen: https://mzl.la/newfirefox #NeuerFirefox
+tweet-2 = #FirefoxQuantum ist schneller als ________. Danke @Firefox & @Firefox_DE
+tweet-3 = #FirefoxQuantum ist hier und er ist SCHNELL. Für das Gute! Hol ihn Dir hier: https://mzl.la/newfirefox #NeuerFirefox
+own-tweet-cta = Eigenen Text tweeten
 github = GitHub
-legal = Legal
-license = License
-guidelines = Guidelines
+legal = Rechtliches
+license = Lizenz
+guidelines = Richtlinien
 mozilla-description =
-  Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future
-  of the web for the public good. Visit us at
-  <a href="https://mozilla.org" target="_blank">mozilla.org</a>
+  Mozilla ist eine globale Non-Profit Organisation, die Dir die Kontrolle über Deine Online-Erlebnisse zurückgibt und sich für eine bessere Zukunft des Internet einsetzt - für alle! Besuch uns hier: <a href="https://mozilla.org" target="_blank">mozilla.org</a>
 official-tweet-id = 928033132908986369
-

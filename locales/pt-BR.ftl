@@ -9,6 +9,7 @@ tweet-1 = O #novofirefox saiu hoje e é duas vezes mais rápido do que antes! �
 tweet-2 = O #novofirefox é mais rápido do que ______________. Obrigado @FirefoxBrasil!
 tweet-3 = O #novofirefox está aqui e é RÁPIDO. De verdade. Baixe o #novofirefox aqui: https://mzl.la/newfirefox
 own-tweet-cta = Tweet seu próprio texto
+hashtag = #novofirefox
 github = GitHub
 legal = Jurídico
 license = Licença

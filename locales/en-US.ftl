@@ -9,6 +9,7 @@ tweet-1 = The #newfirefox is out today and it’s twice as fast as before! 💥 
 tweet-2 = The #newfirefox is faster than a ___________. Thanks @Firefox!
 tweet-3 = The new @Firefox is here and it is FAST. For good. Get the #newfirefox here: https://mzl.la/newfirefox
 own-tweet-cta = Tweet own text
+hashtag = #newfirefox
 github = GitHub
 legal = Legal
 license = License

@@ -9,6 +9,7 @@ tweet-1 = #FirefoxQuantum kommt heute und ist doppelt so schnell! 💥 Jetzt her
 tweet-2 = #FirefoxQuantum ist schneller als ________. Danke @Firefox & @Firefox_DE
 tweet-3 = #FirefoxQuantum ist hier und er ist SCHNELL. Für das Gute! Hol ihn Dir hier: https://mzl.la/newfirefox #NeuerFirefox
 own-tweet-cta = Eigenen Text tweeten
+hashtag = #NeuerFirefox
 github = GitHub
 legal = Rechtliches
 license = Lizenz

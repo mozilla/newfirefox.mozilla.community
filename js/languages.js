@@ -42,6 +42,10 @@ function updateTweets() {
   const tweet3 = document.querySelector('[data-l10n-id="tweet-3"]');
   const link3 = document.querySelector('#tweet-link3');
   link3.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet3.textContent);
+
+  const tweetOwn = document.querySelector('#own-tweet');
+  const hashtag = document.querySelector('#hashtag').textContent;
+  tweetOwn.href = tweetOwn.href + encodeURIComponent(hashtag);
 }
 
 function getParameterByName(name) {

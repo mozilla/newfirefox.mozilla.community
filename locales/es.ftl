@@ -18,4 +18,4 @@ mozilla-description =
   Mozilla es una organización global sin fines de lucro dedicada a ponerte en control de tu experiencia en linea y dando forma al futuro
   de la web por el bien general. Visitanos en
   <a href="https://mozilla.org" target="_blank">mozilla.org</a>
-official-tweet-id = 928033132908986369
+official-tweet-id = tbd

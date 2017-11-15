@@ -32,7 +32,12 @@ function updateTweets() {
 
   var officialTweet = document.querySelector('#official-tweet');
   var tweetId = document.querySelector('#official-tweet-id').textContent;
-  officialTweet.href = 'https://twitter.com/intent/retweet?tweet_id=' + tweetId;
+  if (tweetId !== 'tbd') {
+    officialTweet.href = 'https://twitter.com/intent/retweet?tweet_id=' + tweetId;
+    officialTweet.classList.remove('hidden');
+  } else {
+    officialTweet.classList.add('hidden');
+  }
 
   var tweet1 = document.querySelector('[data-l10n-id="tweet-1"]');
   var link1 = document.querySelector('#tweet-link1');

@@ -157,7 +157,7 @@ header .intro img {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px 40px;
 }
 
 .btn-big {
@@ -180,6 +180,11 @@ header .intro img {
   display: flex;
   justify-content: center;
   padding: 0px 50px 20px 50px;
+}
+
+#thunderclap-container .btn {
+  background-color: #FF0039;
+  color: #fff;
 }
 
 #tweets-container {

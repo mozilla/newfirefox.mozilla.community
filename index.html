@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans|Zilla+Slab|Zilla+Slab+Highlight:400,700">
 
   <meta name="defaultLanguage" content="en-US">
-  <meta name="availableLanguages" content="de, en-US, es, fr, pt-BR">
+  <meta name="availableLanguages" content="de, en-US, es, fr, pt-BR, te-IN, hi, ta, ne-NP, mr-IN">
   <link rel="localization" href="locales/{locale}.ftl">
   <script defer src="dist/l20n.min.js"></script>
 
@@ -53,6 +53,11 @@
             <option value="es">Español</option>
             <option value="fr">Français</option>
             <option value="pt-BR">Português</option>
+            <option value="te-IN">తెలుగు</option>
+            <option value="hi">हिन्दी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="ne-NP">नेपाली भाषा</option>
+            <option value="mr-IN">मराठी</option>
           </select>
       </div>
 
@@ -70,7 +75,7 @@
     </div>
 
     <div class="hidden" id="tweets-container">
-      <a class="btn btn-big" id="official-tweet" data-l10n-id="official-tweet-cta">Retweet official tweet</a>
+      <a class="btn btn-big hidden" id="official-tweet" data-l10n-id="official-tweet-cta">Retweet official tweet</a>
       <span id="official-tweet-id" class="hidden" data-l10n-id="official-tweet-id"></span>
 
       <div id="tweets-examples-container">
@@ -90,7 +95,7 @@
         </div>
       </div>
 
-      <a class="btn" id="own-tweet" href="https://twitter.com/intent/tweet?text=" data-l10n-id="own-tweet-cta">Tweet own text</a>
+      <a class="btn" id="own-tweet" href="" data-l10n-id="own-tweet-cta">Tweet own text</a>
       <span id="hashtag" class="hidden" data-l10n-id="hashtag"></span>
     </div>
 

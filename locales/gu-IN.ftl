@@ -14,6 +14,6 @@ github = ગિથબ
 legal = કાનૂની
 license = લાઈસન્સ
 guidelines = દિશાનિર્દેશો
-mozilla-description = મોઝીલા એક વિશ્વવ્યાપી બિન-નફાકારક છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રિત કરવા અને ભવિષ્યને આકાર આપવા માટે સમર્પિત છે સારા માટે જાહેર વેબની. 
-અમારી મુલાકાત લો <a href="https://mozilla.org" target="_blank">mozilla.org</a>
+mozilla-description = મોઝીલા એક વિશ્વવ્યાપી બિન-નફાકારક છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રિત કરવા અને ભવિષ્યને આકાર આપવા માટે સમર્પિત છે સારા માટે જાહેર વેબની.
+    અમારી મુલાકાત લો <a href="https://mozilla.org" target="_blank">mozilla.org</a>
 official-tweet-id = 928033132908986369
